@@ -1,0 +1,73 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Boot/css/bootstrap.min.css">
+  <script src="Boot/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="To-Do/script.js"></script>
+  <title>To-Do lists | yash-waghadhare</title>
+</head>
+
+<body style="background-color: rgb(34, 34, 33); padding: auto">
+
+  <div class="container">
+    <center>
+        <div class="card">          
+          <div class="tools">
+            <div class="circle">
+              <span class="red box"></span>
+            </div>
+            <div class="circle">
+              <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+              <span class="green box"></span>
+            </div>
+          </div>
+          <div class="card__content">
+            
+            <h1 style="color: rgb(180, 254, 6);">Tic Tac Toe</h1>
+            <div id="board">
+              <div class="cell" onclick="makeMove(0)"></div>
+              <div class="cell" onclick="makeMove(1)"></div>
+              <div class="cell" onclick="makeMove(2)"></div>
+              <div class="cell" onclick="makeMove(3)"></div>
+              <div class="cell" onclick="makeMove(4)"></div>
+              <div class="cell" onclick="makeMove(5)"></div>
+              <div class="cell" onclick="makeMove(6)"></div>
+              <div class="cell" onclick="makeMove(7)"></div>
+              <div class="cell" onclick="makeMove(8)"></div>
+            </div>            
+            <button class="btn btn--primary" onclick="resetBoard()">
+              <span class="btn-inner">
+                <span class="btn-label">
+                  <img src="3.gif" width="30px" height="30px" alt="">
+                </span>
+                <span class="btn-blur" aria-hidden=""></span>
+              </span>              
+            </button>
+            <script src="script.js"></script>
+          </div>
+        </div>
+    </center>
+  </div>
+
+</body>
+
+</html>
